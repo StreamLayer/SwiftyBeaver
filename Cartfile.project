@@ -1,0 +1,10 @@
+SwiftyBeaver-Package:
+  project: SwiftyBeaver.xcodeproj
+  sdks:
+  - macosx
+  - iphoneos
+  - iphonesimulator
+  - appletvos
+  - appletvsimulator
+  - watchos
+  - watchsimulator

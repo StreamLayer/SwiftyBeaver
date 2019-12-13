@@ -12,11 +12,11 @@ let package = Package(
         .watchOS(.v2)
     ],
     products: [
-        .library(name: "SwiftyBeaver", targets: ["SwiftyBeaver"])
+      .library(name: "SwiftyBeaver", type: .static, targets: ["SwiftyBeaver"])
     ],
     targets: [
-        .target(name: "SwiftyBeaver", path: "Sources"),
-        .testTarget(name: "SwiftyBeaverTests", dependencies: ["SwiftyBeaver"]),
+      .target(name: "SwiftyBeaver", path: "Sources"),
+      .testTarget(name: "SwiftyBeaverTests", dependencies: ["SwiftyBeaver"]),
     ],
     swiftLanguageVersions: [.v5]
 )
