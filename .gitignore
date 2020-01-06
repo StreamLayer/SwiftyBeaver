@@ -73,3 +73,6 @@ Carthage/
 fastlane/report.xml
 fastlane/screenshots
 /.swiftpm
+node_modules
+*.zip
+*.lock
